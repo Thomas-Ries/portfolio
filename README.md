@@ -27,6 +27,16 @@ It's not 100% responsive for every smartphones. But it's allmost enterily respon
 
 # Screenshots
 
-![alt tag](https://user-images.githubusercontent.com/73991398/99702111-b3cd4500-2a95-11eb-8858-b7b0a801f2f8.png)
+![alt tag](https://user-images.githubusercontent.com/73991398/109138864-21ef6b00-775b-11eb-8818-891df62900b7.PNG)
 
-![alt tag](https://user-images.githubusercontent.com/73991398/99702216-d2334080-2a95-11eb-985a-1691dda2dbe7.png)
+![alt tag](https://user-images.githubusercontent.com/73991398/109138877-2451c500-775b-11eb-893a-b21b64a22dc8.PNG)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/109138870-23209800-775b-11eb-91b2-d17a495c8471.PNG)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/109138868-23209800-775b-11eb-93cb-90010157de0d.PNG)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/109138880-24ea5b80-775b-11eb-808e-157928ebb10b.PNG)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/109138873-23b92e80-775b-11eb-9251-df855566632f.PNG)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/109138875-2451c500-775b-11eb-8279-22dad1b62a7e.PNG)
