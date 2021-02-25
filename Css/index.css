@@ -723,7 +723,7 @@ li {
     right: 5rem;
     border-radius: 100%;
     display: flex;
-    animation: pulse 2s infinite;
+    animation: pulse 1.8s infinite;
     cursor: pointer;
 }
 
@@ -741,7 +741,7 @@ li {
     color: #fff;
 }
 
-/* ANIMATION DU BOUTON GHAUT DE PAGE */
+/* ANIMATION DU BOUTON HAUT DE PAGE */
 @keyframes pulse {
     0%{
         box-shadow: 0 0 0 0 rgba(238, 46, 49, 0.99);
@@ -846,14 +846,31 @@ li {
     color: #000;
     font-size: 1.5rem;
     width: 12rem;
-}
-    
+} 
 }
 
+@media screen and (max-width: 1024px){
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5 {
+    width: 90%;
+    height: 48%;
+}
+}
 
 
 @media screen and (max-width: 768px){
-
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5 {
+    width: 80%;
+    height: 68%;
+}
+    
 .nav-list li{
     display: flex;
     flex-direction: column !important;
@@ -913,12 +930,63 @@ li {
 .timeline .date::before {
     left: -22rem;
 }
-
 }
 
 
-
 @media screen and (max-width: 550px){ 
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5 {
+    width: 70%;
+    height: 80%;
+}
+
+.modal img,
+.modal2 img,
+.modal3 img,
+.modal4 img,
+.modal5 img {
+    height: 30%;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description h1 {
+    font-size: 1.5rem;
+}
+
+.description h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.technoUsed p {
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.descriptionText p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.description a {
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+    color: #000;
+    font-size: 1rem;
+    width: 12rem;
+}
+    
 .menu-toggler {
     top: 2rem;
     right: 2rem;
@@ -973,5 +1041,36 @@ li {
 .haut {
     right: 2rem;
 }
+}
 
+@media screen and (max-width: 411px){ 
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5 {
+    width: 80%;
+    height: 60%;
+}
+    
+.description h1 {
+    font-size: 1.2rem;
+}
+    
+.description h4 {
+    font-size: 1rem;
+}
+    
+.technoUsed p {
+    font-size: .85rem;
+}
+    
+.descriptionText p {
+    font-size: .9rem;
+
+}
+
+.description a {
+    font-size: 1rem;
+}
 }
