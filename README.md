@@ -5,7 +5,7 @@ First publication of my portfolio. All the projects were made during my Front-En
 # Date
 25/02/2020
 
-# Langage used in Front
+# Languages used in Front
 - HTML 5
 - CSS 3
 - JavaScript
