@@ -23,7 +23,7 @@ First publication of my portfolio. All the projects were made during my courses 
 Portfolio still in progress
 
 # Responsive
-It's not 100% responsive for every smartphones. But it's allmost enterily responsive for all desktops sizes.
+It's not 100% responsive for every smartphones. But it's almost entirely responsive for all desktops sizes.
 
 # Screenshots
 
