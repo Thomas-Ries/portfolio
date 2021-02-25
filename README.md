@@ -1,6 +1,6 @@
 # Portfolio
 
-First publication of my portfolio. All the projects were made during my courses at Epitech Strasbourg.
+First publication of my portfolio. All the projects were made during my Front-End Web Developer courses at Epitech Strasbourg.
 
 # Date
 25/02/2020
