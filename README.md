@@ -25,3 +25,8 @@ Portfolio still in progress
 # Responsive
 It's not 100% responsive for every smartphones. But it's allmost enterily responsive for all desktops sizes.
 
+# Screenshots
+
+![alt tag](https://user-images.githubusercontent.com/73991398/99702111-b3cd4500-2a95-11eb-8858-b7b0a801f2f8.png)
+
+![alt tag](https://user-images.githubusercontent.com/73991398/99702216-d2334080-2a95-11eb-985a-1691dda2dbe7.png)
