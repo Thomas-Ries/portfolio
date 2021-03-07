@@ -158,14 +158,6 @@ li {
     padding: 1rem;
 }
 
-/* .nav-link:hover,
-.nav-link:focus {
-    background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
-
 .nav-link {
     text-decoration: none;
     color: var(--nav-link-color);
@@ -676,6 +668,10 @@ li {
     margin-bottom: 1rem;
 }
 
+.timeline h2 {
+    visibility: hidden;
+}
+
 .timeline .date {
     border-bottom: 1px solid #000;
     margin-bottom: 1rem;
@@ -891,6 +887,17 @@ li {
 }
 }
 
+@media screen and (max-width: 815px) {
+.timeline .cta-btn {
+    font-size: 1rem;
+}
+
+.timeline .resume {
+    width: auto !important;
+}
+}
+
+
 
 @media screen and (max-width: 768px){
 .modal,
@@ -960,6 +967,10 @@ li {
 
 .timeline .date::before {
     left: -22rem;
+}
+
+.timeline .resume {
+    width: auto !important;
 }
 }
 
@@ -1069,12 +1080,29 @@ li {
     font-size: 1.3rem;
 }
 
+.timeline .resume {
+    width: auto !important;
+}
+
 .haut {
     right: 2rem;
 }
 }
 
 @media screen and (max-width: 411px){ 
+
+.profile-img img {
+    height: 30rem;
+    width: 30rem;
+    border-radius: .3rem;
+    margin-top: 10rem;
+}
+
+.projet-img {
+    flex: 1;
+    width: 35 rem;
+}
+
 .modal,
 .modal2,
 .modal3,
@@ -1098,11 +1126,63 @@ li {
     
 .descriptionText p {
     font-size: .9rem;
-
 }
 
 .description a {
     font-size: 1rem;
 }
 
+/* TIMELINE */
+.timeline {
+    width: 100%;
 }
+
+.timeline ul {
+    border-left: 2px solid #000;
+    border-radius: .8rem;
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+
+.timeline h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.timeline h2 {
+    visibility: visible;
+    margin-bottom: 1rem;
+}
+
+.timeline p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.timeline .date::before {
+    display: none;
+}
+
+.timeline .date::after {
+    content:"";
+    box-shadow: 0 0 0 4px #000;
+    border-radius: 100%;
+    left: -6.8rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #fff;
+}
+
+.timeline .resume {
+    font-size: 1rem;
+    width: auto !important;
+}
+}
+
