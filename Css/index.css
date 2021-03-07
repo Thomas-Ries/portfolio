@@ -407,7 +407,7 @@ li {
 
 /* ========================================= */
 /* ========================================= */
-        /* TECH SKILLS */
+        /* Tech et Commercial Skills */
 /* ========================================= */
 /* ========================================= */
 .my-skills {
@@ -976,6 +976,14 @@ li {
 
 
 @media screen and (max-width: 550px){ 
+.tech-skills h6 {
+    font-size: 1.4rem;
+}
+
+.my-skills {
+    margin-top: -3rem;
+}
+
 .modal,
 .modal2,
 .modal3,
@@ -1089,7 +1097,7 @@ li {
 }
 }
 
-@media screen and (max-width: 411px){ 
+@media screen and (max-width: 500px){ 
 
 .profile-img img {
     height: 30rem;
@@ -1100,7 +1108,7 @@ li {
 
 .projet-img {
     flex: 1;
-    width: 35 rem;
+    width: 35rem;
 }
 
 .modal,
@@ -1149,10 +1157,9 @@ li {
 }
 
 .timeline h1 {
-    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 .timeline h2 {
@@ -1161,7 +1168,6 @@ li {
 }
 
 .timeline p {
-    font-size: 1rem;
     line-height: 1.5rem;
     width: 100%;
 }
@@ -1181,7 +1187,7 @@ li {
 }
 
 .timeline .resume {
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: auto !important;
 }
 }
