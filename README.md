@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 My first online portfolio for Front-End Web Developer recruitments.
 
 # Date
