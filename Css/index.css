@@ -393,16 +393,11 @@ li {
     font-size: 4rem;
 }
 
-.fa-twitter-square:hover {
-    color: #38a1f3;
-}
-
-.fa-linkedin:hover {
-    color: #1466C2;
-}
-
-.fa-github-square:hover {
-    color: #9CDAF0;
+.fa-twitter-square:hover,
+.fa-linkedin:hover,
+.fa-github-square:hover,
+.fa-medium:hover {
+    color: var(--link-color);
 }
 
 /* ========================================= */
@@ -458,6 +453,13 @@ li {
         /* PROJETS */
 /* ========================================= */
 /* ========================================= */
+
+#projet-introduction {
+    margin: 1rem 0 3rem 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .projet-item {
     display: flex;
     align-items: center;
@@ -715,17 +717,21 @@ li {
     display: inline-block;
     position: relative;
     color: #FFF;
-    font-size: 1.3rem;
+    font-size: 2rem;
     position: relative;
     padding: 1rem;
-    width: 15%;
+    width: 20%;
     background-color: var(--link-color);
     left: 50%;
     transform: translateX(-50%);
 }
 
-.fa-file-pdf {
-    font-size: 2rem;
+.resume:hover {
+    cursor: pointer;
+}
+
+.resume a {
+    font-size: 15px;
 }
 
 /* ========================================= */
