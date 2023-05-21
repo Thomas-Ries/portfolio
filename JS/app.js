@@ -109,20 +109,6 @@ window.onload = function() {
     modalClose5.addEventListener('click', function() {
         modalBg5.classList.remove('bg-active');
     }); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 }
 
 

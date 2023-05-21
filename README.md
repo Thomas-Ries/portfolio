@@ -7,7 +7,7 @@ My first online portfolio for Front-End Web Developer recruitments.
 # Languages used in Front
 - HTML 5
 - CSS 3
-- JavaScript 
+- JavaScript
 
 # Icons
 - Fontawesome
